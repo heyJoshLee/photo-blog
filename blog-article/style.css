@@ -14,8 +14,20 @@ body {
   line-height: 30px;
 }
 
+figure {
+  margin: 0 0 20px 0;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+}
+
 figcaption {
   font: italic 14px/24px Georgia, serif;
+  padding: 10px;
+  border: 1px solid rbg(204, 204, 204);
+  border-top: none;
 }
 
 header p {
@@ -33,6 +45,12 @@ header p {
 a {
   text-decoration: none;
   color: #2455C3;
+}
+
+a.facebook {
+  padding-left: 20px;
+  background: #f0f099 url("facebook.png") 0 0 / 16px no-repeat;
+
 }
 
 blockquote {
